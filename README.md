@@ -1,5 +1,5 @@
 # Local Cellpose
-A simple wrapper utility to install and run Cellpose locally on your machine without the need for Docker or Conda. This project uses [uv](https://docs.astral.sh/uv/) as the Python package manager to manage dependencies and run Cellpose.
+A simple wrapper utility to install and run [Cellpose](https://github.com/mouseland/cellpose) locally with GPU support on your machine without the need for Docker or Conda. This project uses [uv](https://docs.astral.sh/uv/) as the Python package manager to manage dependencies and run Cellpose.
 
 
 ## Prerequisites
@@ -76,3 +76,7 @@ For 3D image segmentation, run the following command:
 ```bash
 uv run -m cellpose --Zstack
 ```
+
+
+## Local Development
+This repository is intended to be the starting point of your own project that uses Cellpose for image segmentation. Please clone, rename, and modify this repository as needed for your own project.
