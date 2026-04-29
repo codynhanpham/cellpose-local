@@ -55,7 +55,7 @@ Use the included `czi2tiff.py` script to convert CZI files to TIFF format, which
         ```bash
         uv run czi2tiff.py -i /path/to/input.czi --reshape [1,0,2,3]
         ```
-        The list passed to `--reshape` should contain the new order of axes indices. In this example, `1` corresponds to `Z`, `0` corresponds to `C`, `2` corresponds to `Y`, and `3` corresponds to `X`. Adjust the indices in the list according to the actual axes order of your CZI image stack.
+        The list passed to `--reshape` should contain the new order of axes indices. Adjust the indices in the list according to the actual axes order of your CZI image stack.
 
 3. Check that a new TIFF file has been created at the specified output path. This TIFF file can now be used as input for Cellpose.
 
